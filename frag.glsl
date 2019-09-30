@@ -83,7 +83,7 @@ void main()
     
     vec3 col = vec3(0.);
     
-    vec3 cameraPos = vec3(0., 0., 5.0);
+    vec3 cameraPos = vec3(0., 0., -5.0);
     
     //define ray
     vec3 ray = normalize(vec3(pos,0.) - cameraPos);
